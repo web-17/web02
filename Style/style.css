@@ -1,16 +1,26 @@
 
 
 .first{
-	color:red;
 	background-color: black;
 	width: 100%;
-	padding: 20px 0px;
+	padding: 8px 0px;
 }
 
 .bar-item{
-	padding: 10px 16px;
-    float: left;
+	font-size: 25px;
+    padding: 5px 15px;
+    color: #fff;
 }
+
+.loop{
+	float: right;
+    font-size: 15px;
+}
+
+.title{
+	padding: 48px 48px;
+}
+
 
 .headings{
 	font-weight: 400;
@@ -18,8 +28,22 @@
 	text-align: center;
 	font-family: "Oswald";
 	line-height: 1.5;
-	font-weight: bold;
-	
+	font-weight: bold;	
+	}
+
+.h-one{
+	font-size: 48px;
+
+}
+
+.blog{
+	padding: 8px 8px;
+}
+
+.span{
+	padding: 8px 8px;
+    background-color: black;
+    color: #fff;
 }
 
 .blog{
@@ -46,9 +70,10 @@
 .style{
 	float: left;
 	position: absolute;
-	top: 270px;
+	top: 465px;
 	color: #fff;
-	font-family: "oswald";}
+	font-family: "oswald";
+}
 
 	.butoni:{
 		color: black;
