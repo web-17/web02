@@ -1,4 +1,11 @@
+body{
+	margin: 0;
+	font-family: "Open Sans"
+}
 
+h1, h2, h3, h4, h5, h6 {
+	    font-family: "Oswald";
+}
 
 .first{
 	background-color: black;
@@ -25,8 +32,7 @@
 .headings{
 	font-weight: 400;
     margin: 10px 0;
-	text-align: center;
-	font-family: "Oswald";
+	text-align: center;	
 	line-height: 1.5;
 	font-weight: bold;	
 	}
@@ -46,17 +52,26 @@
     color: #fff;
 }
 
+.span2{
+	opacity: 0.6;
+}
+
 .blog{
 	font-size: 24px;
 
 }
 
-.white{
+.text-white{
 	color: white;
-	font-size: 52px;
+	font-size: 36px;
 	letter-spacing: 4px;
 }
 
+.white{
+	color: white;
+	font-size: 64px;
+	letter-spacing: 4px;
+}
 
 .display{
 	max-width: 100%;
@@ -73,15 +88,25 @@
 	top: 465px;
 	color: #fff;
 	font-family: "oswald";
+	left: 20px;
 }
 
-	.butoni:{
-		color: black;
-    background: #fff;
+	.butoni{
+	color: black;
+    background: #bdb7b7;
     padding: 12px 24px;
     font-size: 18px;
-    opacity: 0.6;
-    cursor: pointer; 
+    cursor: pointer;
+    font-family: oswald; 
+	}
+
+	.butoni:hover{
+		background: #ccc;
+
+
 	}
 	
-	
+	.second{
+		width: 33%;
+		display: inline-block;
+	}
