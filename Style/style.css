@@ -7,6 +7,12 @@ h1, h2, h3, h4, h5, h6 {
 	    font-family: "Oswald";
 }
 
+p{
+	font-size: 15px;
+    line-height: 1.5;
+    font-family: auto;
+}
+
 .first{
 	background-color: black;
 	width: 100%;
@@ -68,7 +74,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .white{
-	color: white;
+	background-color: white;
 	font-size: 64px;
 	letter-spacing: 4px;
 }
@@ -78,9 +84,11 @@ h1, h2, h3, h4, h5, h6 {
 	height: auto;	
 }
 
-.text-white{
-	font-size: 36px
+.hparagraf{
+	font-size: 18px;
+    text-align: center;
 }
+
 
 .style{
 	float: left;
@@ -100,13 +108,61 @@ h1, h2, h3, h4, h5, h6 {
     font-family: oswald; 
 	}
 
+
 	.butoni:hover{
 		background: #ccc;
 
-
 	}
+
 	
 	.second{
-		width: 33%;
+		width: 67%;
 		display: inline-block;
 	}
+
+
+.thumbs{
+	width: 100%;
+    display: inline-block;
+	}
+
+
+.left{
+	float: left;
+    background: white;
+    color: black;
+	}
+
+
+.right{
+    float: right;
+    
+    }
+
+.butoni1{
+	background: white;
+    color: black;
+    padding: 12px 16px;
+	}
+
+
+.butoni2{
+	background: black;
+    color: white;
+    padding: 8px 16px;
+	}
+
+
+.span3{
+	padding: 8px 8px;
+	background: white;
+	color: black
+}
+
+.white {
+	background-color: white
+}
+.grey {
+	background-color: grey;
+	padding: 20px 25px
+}
