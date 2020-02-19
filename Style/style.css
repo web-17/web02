@@ -34,13 +34,13 @@ p{
 	padding: 48px 48px;
 }
 
-
 .headings{
 	font-weight: 400;
     margin: 10px 0;
 	text-align: center;	
 	line-height: 1.5;
-	font-weight: bold;	
+	font-weight: bold;
+
 	}
 
 .h-one{
@@ -74,14 +74,14 @@ p{
 }
 
 .white{
-	background-color: white;
 	font-size: 64px;
 	letter-spacing: 4px;
 }
 
 .display{
 	max-width: 100%;
-	height: auto;	
+	height: auto;
+	background-color: white;	
 }
 
 .hparagraf{
@@ -116,6 +116,7 @@ p{
 
 	
 	.second{
+		background-color: white;
 		width: 67%;
 		display: inline-block;
 	}
@@ -124,30 +125,32 @@ p{
 .thumbs{
 	width: 100%;
     display: inline-block;
+    padding: 20px 0px;
+   
 	}
 
 
 .left{
-	float: left;
-    background: white;
-    color: black;
+	color: black;
+
 	}
 
 
-.right{
-    float: right;
+.right{    
+    color: white;
     
     }
 
 .butoni1{
-	background: white;
-    color: black;
+	float: left;
+	background-color: white;
     padding: 12px 16px;
 	}
 
 
 .butoni2{
-	background: black;
+	float: right;
+	background-color: black;
     color: white;
     padding: 8px 16px;
 	}
@@ -160,9 +163,25 @@ p{
 }
 
 .white {
-	background-color: white
+	background-color: white;
 }
 .grey {
-	background-color: grey;
-	padding: 20px 25px
+	background-color: #e3dede;
+	padding: 20px 25px;
+}
+
+
+.smoke{
+
+}
+
+
+.smoke1{
+float: left;
+min-width: 30%;
+}
+
+.smoke2{
+min-width: 70%;
+font-family: inherit;
 }
