@@ -117,7 +117,7 @@ p{
 	
 	.second{
 		background-color: white;
-		width: 67%;
+		max-width: 67%;
 		display: inline-block;
 	}
 
@@ -157,16 +157,16 @@ p{
 
 
 .span3{
-	padding: 8px 8px;
+	margin-left: 14px;
+	padding: 3px 7px;
 	background: white;
 	color: black
 }
 
-.white {
-	background-color: white;
-}
+
+
 .grey {
-	background-color: #e3dede;
+	
 	padding: 20px 25px;
 }
 
@@ -184,4 +184,11 @@ min-width: 30%;
 .smoke2{
 min-width: 70%;
 font-family: inherit;
+}
+
+.thirteen{
+	display: inline-block;
+	max-width: 30%;
+	vertical-align: top;
+	position: relative;
 }
