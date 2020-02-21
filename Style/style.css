@@ -7,10 +7,18 @@ h1, h2, h3, h4, h5, h6 {
 	    font-family: "Oswald";
 }
 
+h3{
+	margin-top: 4px;
+	margin-left: 76px;
+	margin-bottom: 4px;
+}
+
 p{
 	font-size: 15px;
     line-height: 1.5;
     font-family: auto;
+    text-align: justify;
+    letter-spacing: 0px;
 }
 
 .first{
@@ -191,4 +199,20 @@ font-family: inherit;
 	max-width: 30%;
 	vertical-align: top;
 	position: relative;
+}
+
+.fash-img{
+	min-width: 100%
+}
+
+.first-block{
+	background-color: black;
+	padding: 15px 25px;
+	color: white;
+    text-align: justify;
+    margin-top: -4px;
+}
+
+.fash-p{
+	padding: 8px 15px;
 }

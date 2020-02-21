@@ -1,0 +1,14 @@
+@media (max-width: 767px) {
+	.first{
+		display: none;
+	}
+
+	.style{
+		float:left;
+		position: top;
+		
+
+	}
+}
+
+@media (max-width: 1024px)
